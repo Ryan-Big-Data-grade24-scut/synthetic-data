@@ -1,0 +1,4 @@
+﻿check,expected,actual,status
+gross / fee / realized,"(Decimal('2000'), Decimal('6'), '494.00')","(Decimal('2000.00'), Decimal('6.00'), '494.00')",PASS
+broker cash increment / remaining positions,"(Decimal('1994'), Decimal('200'), Decimal('3000'))","(Decimal('1994.00'), Decimal('200'), Decimal('3000.00'))",PASS
+account floating versus total,"(Decimal('1000'), Decimal('494'), Decimal('1494'))","(Decimal('1000.00'), Decimal('494.00'), Decimal('1494.00'))",PASS

@@ -1,0 +1,19 @@
+# 只跟踪为本仓库明确选定的虚构样例版本。
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/20261126-v3-through-20261125/
+
+# 隔离账本和本地运行产物不入库。
+/20261126-v3-through-20261125/backend/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.zip
+*.log
+.env*
+private_input/

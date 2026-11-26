@@ -1,0 +1,2 @@
+# Keep exported files byte-identical to their recorded SHA-256 hashes.
+/20261126-v3-through-20261125/** -text

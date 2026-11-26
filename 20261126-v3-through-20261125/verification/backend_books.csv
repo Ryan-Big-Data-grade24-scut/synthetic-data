@@ -1,0 +1,3 @@
+﻿file,sqlite_integrity,raw_rows,earliest,latest,raw_tx_no_amount_time_sha256,status
+noisy.db,ok,3860,2026-01-01 03:00:54,2026-11-25 20:10:19,d39199a09ed23293398c8eea4562b150a4f831abf66201911ffb8c73d7b78a3c,PASS
+truth.db,ok,3860,2026-01-01 03:00:54,2026-11-25 20:10:19,d39199a09ed23293398c8eea4562b150a4f831abf66201911ffb8c73d7b78a3c,PASS

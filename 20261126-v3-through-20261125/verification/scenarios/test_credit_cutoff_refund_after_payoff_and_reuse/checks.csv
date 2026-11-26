@@ -1,0 +1,7 @@
+﻿check,expected,actual,status
+statement excludes later purchase,"(Decimal('100'), Decimal('130'))","(Decimal('100.00'), Decimal('130.00'))",PASS
+repayment only pays billed amount,"(Decimal('44900'), Decimal('30'), Decimal('0'))","(Decimal('44900.00'), Decimal('30.00'), Decimal('0.00'))",PASS
+refund after paying statement creates backed credit,"(Decimal('-70'), Decimal('70'))","(Decimal('-70.00'), Decimal('70.00'))",PASS
+new purchase consumes credit before new debt,"(Decimal('20'), Decimal('0'))","(Decimal('20.00'), Decimal('0.00'))",PASS
+issuer cash tracks net amount advanced,999980,999980.00,PASS
+card mirror points to wallet payment,GT000001,GT000001,PASS

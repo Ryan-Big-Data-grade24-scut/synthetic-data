@@ -1,0 +1,3 @@
+﻿check,expected,actual,status
+two visible candidates: skip blind scoring,"('ambiguous', 2, 'no')","('ambiguous', 2, 'no')",PASS
+engine keeps actual original,EV000001,EV000001,PASS

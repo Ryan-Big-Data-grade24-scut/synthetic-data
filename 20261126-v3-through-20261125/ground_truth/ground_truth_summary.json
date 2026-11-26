@@ -1,0 +1,25 @@
+{
+  "seed": 20261126,
+  "period": [
+    "2026-01-01",
+    "2026-11-25"
+  ],
+  "postings": 5363,
+  "platform_bias": {
+    "classified": 3076,
+    "mismatched": 2368,
+    "rate": 0.7698309492847855,
+    "alipay": 2141,
+    "alipay_mismatched": 1433,
+    "wechat": 935,
+    "wechat_mismatched": 935,
+    "individual_purchases": 1537,
+    "individual_collapsed_to_merchant": 1537
+  },
+  "reconciliation": {
+    "ok": true,
+    "files": 19,
+    "export_rows": 6478,
+    "matched": 6478
+  }
+}

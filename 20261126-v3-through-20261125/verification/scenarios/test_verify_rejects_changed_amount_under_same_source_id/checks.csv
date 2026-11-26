@@ -1,0 +1,2 @@
+﻿check,expected,actual,status
+one altered source row detected at same ID,"(False, 1)","(False, 1)",PASS

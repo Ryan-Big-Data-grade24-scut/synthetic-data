@@ -1,0 +1,4 @@
+﻿check,expected,actual,status
+reject stranded settlement,True,True,PASS
+reject cash effect,True,True,PASS
+reject wrong business label,True,True,PASS

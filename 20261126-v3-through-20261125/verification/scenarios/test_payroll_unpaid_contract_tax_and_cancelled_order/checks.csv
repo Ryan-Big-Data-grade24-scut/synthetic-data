@@ -1,0 +1,9 @@
+﻿check,expected,actual,status
+"employment net salary, not arbitrary input",28000,28000.00,PASS
+employer pays household from finite opening cash,"(Decimal('2472000'), Decimal('73000'))","(Decimal('2472000.00'), Decimal('73000.00'))",PASS
+first installment principal and interest,"[('loan_principal', Decimal('5000')), ('loan_interest', Decimal('2800'))]","[('loan_principal', Decimal('5000.00')), ('loan_interest', Decimal('2800.00'))]",PASS
+unfunded installment leaves amount due,"('unpaid', Decimal('7800'))","('unpaid', Decimal('7800.00'))",PASS
+failed debit leaves cash and loan principal intact,"(Decimal('200'), Decimal('1795000'))","(Decimal('200.00'), Decimal('1795000.00'))",PASS
+tax return refunds only historical withholding,"(Decimal('1200'), Decimal('74800'), Decimal('998200'))","(Decimal('1200.00'), Decimal('74800.00'), Decimal('998200.00'))",PASS
+cancelled order has no cash legs,(),(),PASS
+tax not counted as income or cancelled order as spend,"(Decimal('28000'), Decimal('1800'), Decimal('7800'))","(Decimal('28000.00'), Decimal('1800.00'), Decimal('7800.00'))",PASS

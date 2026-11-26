@@ -1,0 +1,9 @@
+﻿check,expected,actual,status
+direct merchant funding,"('salary', 'individual:0b94baccd5b190fe')","('salary', 'individual:0b94baccd5b190fe')",PASS
+seller is same business in both sales,individual:0b94baccd5b190fe,individual:0b94baccd5b190fe,PASS
+marketplace route length and endpoints,"(4, 'wallet_family', 'alipay_clearing', 'individual:0b94baccd5b190fe')","(4, 'wallet_family', 'alipay_clearing', 'individual:0b94baccd5b190fe')",PASS
+seller receives both payments,5050,5050.00,PASS
+marketplace clears to merchant,0,0.00,PASS
+both payment views backed by one debit,2970,2970.00,PASS
+wallet mirror retains label and event,"('GT000002', '弹性支出', 'EV000002')","('GT000002', '弹性支出', 'EV000002')",PASS
+only one counted purchase per sale,50,50.00,PASS

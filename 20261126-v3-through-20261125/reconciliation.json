@@ -1,0 +1,217 @@
+{
+  "ok": true,
+  "files": 19,
+  "export_rows": 6478,
+  "matched": 6478,
+  "rows": [
+    {
+      "file": "支付宝/支付宝交易明细(20260101-20261125).csv",
+      "truth": "ground_truth_postings.csv",
+      "key": "交易订单号",
+      "export_rows": 2595,
+      "truth_rows": 2595,
+      "matched": 2595,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "微信/微信支付账单(20260101-20261125).xlsx",
+      "truth": "ground_truth_postings.csv",
+      "key": "交易单号",
+      "export_rows": 1003,
+      "truth_rows": 1003,
+      "matched": 1003,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "支付宝小荷包/小荷包收支明细_家庭开销.xlsx",
+      "truth": "ground_truth_postings.csv",
+      "key": "订单号",
+      "export_rows": 235,
+      "truth_rows": 235,
+      "matched": 235,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "支付宝小荷包/小荷包收支明细_旅行基金.xlsx",
+      "truth": "ground_truth_postings.csv",
+      "key": "订单号",
+      "export_rows": 20,
+      "truth_rows": 20,
+      "matched": 20,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "支付宝小荷包/小荷包收支明细_自动攒.xlsx",
+      "truth": "ground_truth_postings.csv",
+      "key": "订单号",
+      "export_rows": 11,
+      "truth_rows": 11,
+      "matched": 11,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "支付宝小荷包/小荷包收支明细_教育金.xlsx",
+      "truth": "ground_truth_postings.csv",
+      "key": "订单号",
+      "export_rows": 11,
+      "truth_rows": 11,
+      "matched": 11,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "银行卡/招商银行储蓄卡_交易明细.csv",
+      "truth": "ground_truth_postings.csv",
+      "key": "交易流水号",
+      "export_rows": 166,
+      "truth_rows": 166,
+      "matched": 166,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "银行卡/工商银行_交易明细.csv",
+      "truth": "ground_truth_postings.csv",
+      "key": "交易流水号",
+      "export_rows": 22,
+      "truth_rows": 22,
+      "matched": 22,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "银行卡/建设银行_交易明细.csv",
+      "truth": "ground_truth_postings.csv",
+      "key": "交易流水号",
+      "export_rows": 55,
+      "truth_rows": 55,
+      "matched": 55,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "银行卡/招商银行信用卡_账单明细.csv",
+      "truth": "ground_truth_postings.csv",
+      "key": "交易流水号",
+      "export_rows": 1075,
+      "truth_rows": 1075,
+      "matched": 1075,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "银行卡/广发银行信用卡_账单明细.csv",
+      "truth": "ground_truth_postings.csv",
+      "key": "交易流水号",
+      "export_rows": 170,
+      "truth_rows": 170,
+      "matched": 170,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "美团/美团订单明细.csv",
+      "truth": "ground_truth_postings.csv",
+      "key": "订单号",
+      "export_rows": 315,
+      "truth_rows": 315,
+      "matched": 315,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "淘宝天猫/淘宝天猫订单明细.csv",
+      "truth": "ground_truth_postings.csv",
+      "key": "订单编号",
+      "export_rows": 269,
+      "truth_rows": 269,
+      "matched": 269,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "京东/京东订单明细.csv",
+      "truth": "ground_truth_postings.csv",
+      "key": "订单号",
+      "export_rows": 79,
+      "truth_rows": 79,
+      "matched": 79,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "投资/天天基金_交易确认.csv",
+      "truth": "投资/天天基金_交易确认.csv",
+      "key": "row_tuple",
+      "export_rows": 25,
+      "truth_rows": 25,
+      "matched": 25,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "投资/证券_成交明细.csv",
+      "truth": "投资/证券_成交明细.csv",
+      "key": "row_tuple",
+      "export_rows": 11,
+      "truth_rows": 11,
+      "matched": 11,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "投资/银行理财_收益明细.csv",
+      "truth": "投资/银行理财_收益明细.csv",
+      "key": "row_tuple",
+      "export_rows": 10,
+      "truth_rows": 10,
+      "matched": 10,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "投资/微信零钱通理财通收益明细.csv",
+      "truth": "投资/微信零钱通理财通收益明细.csv",
+      "key": "row_tuple",
+      "export_rows": 340,
+      "truth_rows": 340,
+      "matched": 340,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "投资/资产快照_2026.csv",
+      "truth": "投资/资产快照_2026.csv",
+      "key": "row_tuple",
+      "export_rows": 66,
+      "truth_rows": 66,
+      "matched": 66,
+      "unmatched": 0,
+      "truth_unmatched": 0,
+      "result": "PASS"
+    }
+  ]
+}

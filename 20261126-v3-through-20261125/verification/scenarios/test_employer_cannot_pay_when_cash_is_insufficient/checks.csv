@@ -1,0 +1,4 @@
+﻿check,expected,actual,status
+no successful payment view,[],[],PASS
+unpaid payroll stays due,"('unpaid', Decimal('28000'))","('unpaid', Decimal('28000.00'))",PASS
+neither balance was changed,"(Decimal('27000'), Decimal('45000'))","(Decimal('27000'), Decimal('45000.00'))",PASS

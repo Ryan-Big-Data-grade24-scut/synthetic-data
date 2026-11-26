@@ -1,0 +1,5 @@
+﻿check,expected,actual,status
+confirmation gross / units / fee,"(Decimal('1500'), Decimal('500'), Decimal('7.50'))","(Decimal('1500.00'), Decimal('500'), Decimal('7.50'))",PASS
+bank net / issuer gross / fee collector,"(Decimal('46492.50'), Decimal('248500'), Decimal('7.50'))","(Decimal('46492.50'), Decimal('248500.00'), Decimal('7.50'))",PASS
+"remaining units, cost and realized P&L","(Decimal('300'), Decimal('750'), Decimal('242.50'))","(Decimal('300.00'), Decimal('750.00'), Decimal('242.50'))",PASS
+sub-cent error rejected with unchanged confirmation ID,"(False, 1)","(False, 1)",PASS

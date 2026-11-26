@@ -1,0 +1,15 @@
+﻿check,expected,actual,status
+payment path,"('alipay:余额宝', 'alipay_clearing', 'individual:02440e3cc6a0879c')","('alipay:余额宝', 'alipay_clearing', 'individual:02440e3cc6a0879c')",PASS
+seller receipts before refund,5240,5240.00,PASS
+investment balance after first purchase,25880,25880.00,PASS
+ordinary wallet after second purchase,2680,2680.00,PASS
+refund path,"('individual:02440e3cc6a0879c', 'alipay_clearing', 'alipay:余额宝')","('individual:02440e3cc6a0879c', 'alipay_clearing', 'alipay:余额宝')",PASS
+partial credit to correct product,25915,25915.00,PASS
+over-limit refund rejected atomically,"('failed', (), ())","('failed', (), ())",PASS
+original product fully restored,26000,26000.00,PASS
+same-priced payment in other product untouched,"(Decimal('2680'), Decimal('0'))","(Decimal('2680.00'), Decimal('0.00'))",PASS
+seller net receipts and zero clearing,"(Decimal('5120'), Decimal('0'))","(Decimal('5120.00'), Decimal('0.00'))",PASS
+both refunds independently replayed,2,2,PASS
+January gross/refund/net,"(Decimal('120'), Decimal('0'), Decimal('120'))","(Decimal('120.00'), Decimal('0.00'), Decimal('120.00'))",PASS
+February gross/refund/net,"(Decimal('120'), Decimal('120'), Decimal('0'))","(Decimal('120.00'), Decimal('120.00'), Decimal('0.00'))",PASS
+refund inherits original spending class in summary,120,120.00,PASS
