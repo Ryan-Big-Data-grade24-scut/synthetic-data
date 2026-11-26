@@ -29,7 +29,7 @@ write_all(dataset, out)
 PY
 ```
 
-输出目录必须不存在或为空；重跑换新目录。若还要复现隔离导入，用 `python -m scripts.synth.backend_ledger --dataset <输出目录> --out <新的隔离库目录>`。现有导入器和 Ledger2 只覆盖支付宝、微信和小荷包；银行卡、电商、投资等近似格式不入库。
+输出目录必须不存在或为空；重跑换新目录。若还要复现隔离导入，用 `python -m scripts.synth.backend_ledger --dataset <输出目录> --out <新的隔离库目录>`；用 `python -m scripts.synth.backend_check --dataset <输出目录>` 可以让**真实导入器 + 真实账本引擎**复算一遍账，再和答案层逐类对账。导入器现已覆盖 18 份原始流水（支付宝、微信、小荷包、借记卡、信用卡、电商订单、基金、证券、理财收益）；资产快照是某一时点的持仓表，不是流水，不入库。复算结果见 `verification/backend_ledger_totals.csv`：收入、义务支出、刚性支出、弹性支出四类金额与答案层**一分不差**。
 
 - **盲测输入**：从 [正式样例](20261126-v3-through-20261125/) 只取支付宝、微信、支付宝小荷包、银行卡、美团、淘宝天猫、京东、投资目录。
 - **出题方留存**：[`ground_truth/ANSWER.md`](20261126-v3-through-20261125/ground_truth/ANSWER.md) 看简要答案；`ground_truth/` 查逐笔和周期汇总；`reconciliation.csv` 查原始行覆盖；`verification/` 查手算、重放、逐文件日期范围和哈希证据。`verification/full_year/` 是生成器的固定目录名，重放只覆盖本样例的实际区间。隔离库不入 Git。不要把整个仓库发给受测方；正式盲测另用未公开的种子。
